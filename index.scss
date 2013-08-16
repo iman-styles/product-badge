@@ -1,0 +1,29 @@
+.product-badge {
+  font-family: $font-family-roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  background: $blue-lightest;
+  position: absolute;
+  top: -3px;
+  right: 20px;
+  border-top: 3px solid lighten($blue-light, 10%);
+  padding: 7px 10px 9px;
+  text-align: center;
+  border-radius: 0 0 3px 3px;
+}
+
+.product-badge__callout {
+  display: block;
+  font-size: 36px;
+  line-height: 34px;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+
+.product-badge--extras {
+  background: $purple-light;
+  border-top-color: lighten($purple, 10%);
+}
