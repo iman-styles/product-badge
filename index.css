@@ -1,15 +1,15 @@
 .product-badge {
-  font-family: $font-family-roboto;
+  font-family: "Roboto", sans-serif;;
   font-size: 12px;
   text-transform: uppercase;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: #fff;
-  background: $blue-lightest;
+  background: #08c;
   position: absolute;
   top: -3px;
   right: 20px;
-  border-top: 3px solid lighten($blue-light, 10%);
+  border-top: 3px solid #0077b3;
   padding: 7px 10px 9px;
   text-align: center;
   border-radius: 0 0 3px 3px;
@@ -24,6 +24,6 @@
 }
 
 .product-badge--extras {
-  background: $purple-light;
-  border-top-color: lighten($purple, 10%);
+  background: #47428c;
+  border-top-color: #352d7b;
 }

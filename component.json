@@ -1,9 +1,9 @@
 {
   "name": "product-badge",
-  "main": "index.scss",
-  "version": "0.0.1",
+  "main": "index.css",
+  "version": "0.1.0",
   "dependencies": {},
   "styles": [
-    "index.scss"
+    "index.css"
   ]
 }
